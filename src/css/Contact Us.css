@@ -1,0 +1,67 @@
+input[type="text"],
+select,
+textarea {
+	width: 100%; 
+	padding: 12px;
+	border: 1px solid #ccc; 
+	border-radius: 4px; 
+	box-sizing: border-box; 
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	/*resize: vertical;*/ 
+}
+
+input[type="submit"] {
+	background-color: #04aa6d;
+	color: white;
+	align-items: center;
+	padding: 12px 30px;
+	border: 1px solid rgb(95, 87, 87);
+	border-radius: 4px;
+	cursor: pointer;
+}
+h3 {
+	display: block;
+	font-size: 30px;
+	font-family: "Fantasy";
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	font-weight: bold;
+}
+
+form{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+}
+body {
+	background-image: url("cwall.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+   }
+.container {
+	box-sizing: border-box;
+	border: 1px solid rgb(160, 149, 149);
+	font-size: 12px;
+	height: 700px;
+  	width: 50%;
+	margin: auto;
+	
+	border-radius: 30px;
+	
+	background: linear-gradient(#991999, #5f085f);
+	/*background-color: #b40f0f;*/
+	padding: 30px;
+}
+.container form .title {
+	font-size: 12px;
+	color: #333;
+	padding-bottom: 30px;
+
+}

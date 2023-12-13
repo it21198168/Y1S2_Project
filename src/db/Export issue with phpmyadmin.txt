@@ -1,0 +1,2 @@
+We faced an issue when exporting the database from phpmyadmin
+Photos are attached below
